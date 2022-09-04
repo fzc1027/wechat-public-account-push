@@ -4,10 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wxaa0c892a694d4d20",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
+  APP_SECRET: "1f9f3a27a6508d24e50cee2bd6c51c35",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -40,12 +40,12 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆1", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
+      name: "冯梓晨", 
+      id: "ohiMq6wOV8fviTz7qsH4uJZ12LqA",
+      useTemplateId: "qdXxHYiJ1J5z6z421g4jMjFOC_eAZ7bWGQ6j4abpflI",
+      province: "北京",
+      city: "北京",
+      openUrl: "https://weibo.com/u/5124710993"
     }, 
     {
       name: "老婆2",
@@ -78,7 +78,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohx12OO6VskYv03Kuf43ywIZVRM4puXhk",
+      id: "ohiMq6wOV8fviTz7qsH4uJZ12LqA",
     }, 
   ],
     
@@ -89,9 +89,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "北京",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "北京",
 
   /** 重要节日相关 */
 
@@ -102,10 +102,9 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "马羽鑫", "year": "1997", "date": "11-20"},
+    {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "08-11"},
+    {"type": "生日", "name": "冯梓晨", "year": "1998", "date": "12-13"},
   ],
 
   /**
@@ -113,7 +112,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 3,
 
   /** 日期相关 */
 
@@ -123,7 +122,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
+    {"keyword": "love_day", date: "2022-08-27"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
@@ -146,8 +145,11 @@ export const config = {
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
       "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
+      "你很傻，你很笨，可我还是很羡慕你，因为你有我。",
+      "遇见你，就好像捡到了一百多斤的运气。",
+      "很想在清晨一睁眼就能看到你，让阳光照了进来。",
+      "如果不开心了及时告诉我哦，我很笨，需要有人帮助我。",
+      "下雨了是不是，我会给你撑把伞的。",
     ]},
   ],
 
