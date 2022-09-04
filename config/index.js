@@ -42,7 +42,7 @@ export const config = {
     {
       name: "冯梓晨", 
       id: "ohiMq6wOV8fviTz7qsH4uJZ12LqA",
-      useTemplateId: "qdXxHYiJ1J5z6z421g4jMjFOC_eAZ7bWGQ6j4abpflI",
+      useTemplateId: "0QL1TWEJamKTn0syS1mfHXWRLGxB7pxD4mBtzT0hUy8",
       province: "北京",
       city: "北京",
       openUrl: "https://weibo.com/u/5124710993"
